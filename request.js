@@ -74,7 +74,7 @@ async function fetchData() {
 
     const modalClose = document.createElement("img");
     modalClose.setAttribute("class", "modal-close");
-    modalClose.setAttribute("src", "/assets/x.svg");
+    modalClose.setAttribute("src", "/assets/close.svg");
     modalContent.appendChild(modalClose);
 
     const modalText = document.createElement("p");
