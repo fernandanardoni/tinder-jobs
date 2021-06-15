@@ -226,7 +226,7 @@ for (const selector of frontEndSelectors) {
     
     selector.style.backgroundColor = "rgba(255, 99, 71, 0.171)";
     const reset = document.createElement("img");
-    reset.setAttribute("src", "./assets/x.svg");
+    reset.setAttribute("src", "./assets/close.svg");
     selector.firstElementChild.replaceWith(reset);
     
     reset.onclick = () => {
