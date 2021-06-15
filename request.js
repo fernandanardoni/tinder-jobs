@@ -164,6 +164,11 @@ async function fetchData() {
         arrowUp.replaceWith(arrowDown);
       };
     };
+
+    // if (window.matchMedia('(max-width: 700px)').matches){
+    //  usersContainer.style.display = "grid";
+    //  usersContainer.style.gridTemplateColumns = "repeat(3, 1fr)"
+    // }
   }
 
 }
@@ -214,7 +219,7 @@ const frontEndSelectors = document.querySelector(".front-options").children;
 
 
 for (const selector of frontEndSelectors) {
-  console.log(selector)
+
   selector.firstElementChild.style.display = "none";
   
   selector.lastElementChild.addEventListener("click", () => {
@@ -249,5 +254,4 @@ for (const selector of backEndSelectors) {
     };
   });
 }
-
 
