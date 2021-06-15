@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
 
 * {
   padding: 0;
@@ -28,7 +27,9 @@ h1, h3 {
   font-size: 40px;
 }
 
-
+h3 {
+  padding: 20px 0;
+}
 
 .stack-select,
 .front-options,
@@ -197,3 +198,10 @@ h1, h3 {
   cursor: pointer;
   margin-bottom: auto;
 }
+
+footer {
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+}
+
